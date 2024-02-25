@@ -33,7 +33,7 @@ export default function ShowTodos() {
         dispatch(remove(id))
     }
   return (
-  <div className=' w-1/2   mx-auto mt-20'>
+  <div className=' w-1/2  mt-28   mx-auto'> 
     {
         todos.map((todo)=>{
           

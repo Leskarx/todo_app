@@ -8,8 +8,8 @@ import store from './store/store'
 export default function Rapp() {
   return (
     
-    
-    <div className=' w-full h-screen '>
+
+    <div className=' w-full h-screen  '>
      <Provider store={store}>
      <AddTodo/>
       <ShowTodos/>

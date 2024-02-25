@@ -12,7 +12,7 @@ export default function AddTodo() {
         
     }
   return (
-    <div className=' mt-5  mx-auto w-3/4'>
+    <div className=' fixed top-0 left-1/2 -translate-x-1/2 w-3/4'>
         <form onSubmit={submitHandler} className=' flex w-full' >
             <input
             value={inputF}
